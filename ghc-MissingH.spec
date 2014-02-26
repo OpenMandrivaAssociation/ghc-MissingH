@@ -18,7 +18,9 @@ BuildRequires:	haskell(hslogger)
 BuildRequires:	haskell(network)
 BuildRequires:	haskell(parsec)
 BuildRequires:	haskell(random)
+BuildRequires:	haskell(regex-base)
 BuildRequires:	haskell(regex-compat)
+BuildRequires:	haskell(regex-posix)
 Requires(post,preun):	ghc
 Obsoletes:	haskell-%{module} < 1.2.0.0-3
 
