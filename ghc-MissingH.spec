@@ -4,7 +4,7 @@
 Summary:	Large utility library for Haskell
 Name:		ghc-%{module}
 Version:	1.2.0.0
-Release:	3
+Release:	5
 License:	BSD
 Group:		Development/Other
 Url:		http://hackage.haskell.org/package/%{module}
@@ -21,6 +21,14 @@ BuildRequires:	haskell(random)
 BuildRequires:	haskell(regex-base)
 BuildRequires:	haskell(regex-compat)
 BuildRequires:	haskell(regex-posix)
+Requires:	haskell(HUnit)
+Requires:	haskell(hslogger)
+Requires:	haskell(network)
+Requires:	haskell(parsec)
+Requires:	haskell(random)
+Requires:	haskell(regex-base)
+Requires:	haskell(regex-compat)
+Requires:	haskell(regex-posix)
 Requires(post,preun):	ghc
 Obsoletes:	haskell-%{module} < 1.2.0.0-3
 
