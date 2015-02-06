@@ -4,7 +4,7 @@
 Summary:	Large utility library for Haskell
 Name:		ghc-%{module}
 Version:	1.2.0.0
-Release:	5
+Release:	6
 License:	BSD
 Group:		Development/Other
 Url:		http://hackage.haskell.org/package/%{module}
